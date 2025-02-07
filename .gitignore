@@ -1,0 +1,69 @@
+# Node modules
+node_modules/
+bower_components/
+
+# Build directories
+dist/
+build/
+.out/
+.tmp/
+
+# TypeScript compiled output
+*.tsbuildinfo
+*.js
+*.js.map
+*.d.ts
+*.d.ts.map
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+/logs
+*.log
+
+# Editor & OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Testing coverage
+coverage/
+
+# Next.js and Nuxt.js specific
+.next/
+.nuxt/
+
+# Parcel cache
+.cache/
+
+# Jest snapshots
+__snapshots__/
+
+# Cypress
+cypress/videos/
+cypress/screenshots/
+
+# Storybook build
+.storybook-out/
+
+# Misc
+*.bak
+*.orig
+
+# TypeScript-specific
+*.tsbuildinfo
