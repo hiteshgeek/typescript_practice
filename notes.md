@@ -1,3 +1,14 @@
+--
+**Installation**
+
+Project based installation
+
+npm install typescript --save-dev
+
+Install globally
+
+npm install -g typescript
+
 null \* 123 = 0  
 **Reason:**  
 When null is used in a mathematical operation, JavaScript coerces it to a number.
@@ -49,3 +60,5 @@ No error, but a new unintended property is added.
 TypeScript enforces strict type checking.
 The type { height: number; width: number } only allows height and width.
 Since heigth (wrong spelling) is not defined in the type, TypeScript prevents this mistake.
+
+**type aliases**
